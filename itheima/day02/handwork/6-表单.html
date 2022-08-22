@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<form action="">
+			<!--		文本框-->
+			昵称: <label title="useName">
+			<input placeholder="请输入昵称" type="text">
+			<br>
+		</label>
+			<!--		文本框-->
+			密码: <label title="password">
+			<input placeholder="请输入密码" type="password">
+			<br>
+		</label>
+			<!--		单选-->
+			性别:
+			<label for="1" title="gender"><input checked id="1" name="gender" type="radio">男</label>
+			
+			<label for="2"><input id="2" name="gender" type="radio">女</label>
+			<br>
+			
+			<!--		复选-->
+			爱好: <label title="hobby">
+			<input checked type="checkbox"> 写代码
+			<input type="checkbox"> 熬夜
+			<input type="checkbox"> 掉头发
+			<br>
+		</label>
+			<!--		文件上传-->
+			上传头像: <label title="upload">
+			<input multiple type="file">
+			<br>
+		</label>
+			<!--		按钮-->
+			按钮:<label>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+			<input type="button" value="Button">
+		</label>
+		</form>
+	</body>
+</html>

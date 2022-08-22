@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>传智征婚网</title>
+	</head>
+	<body>
+		<form action="">
+			<h2>青春不常在, 抓紧谈恋爱</h2>
+			<hr>
+			<p>
+				性别:
+				<input checked id="man" name="gender" type="radio">
+				<label for="man"><img src="./images/man.jpg" alt="man"> 男</label>
+				<input id="woman" name="gender" type="radio">
+				<label for="woman"><img src="./images/women.jpg" alt="woman"> 女</label>
+			</p>
+			<p>
+				出生年月:
+				<label for="year_of_birth">
+					<select name="date_of_birth_year" id="year_of_birth">
+						<option value="year">请选择年</option>
+						<option value="year">1990年</option>
+						<option value="year">1991年</option>
+						<option value="year">1992年</option>
+					</select>
+				</label>
+				<label for="month_of_birth">
+					<select name="date_of_birth_month" id="month_of_birth">
+						<option value="year">请选择月</option>
+						<option value="year">1月</option>
+						<option value="year">2月</option>
+						<option value="year">3月</option>
+					</select>
+				</label>
+				<label for="day_of_birth">
+					<select name="date_of_birth_day" id="day_of_birth">
+						<option value="year">请选择日</option>
+						<option value="year">1</option>
+						<option value="year">2</option>
+						<option value="year">3</option>
+					</select>
+				</label>
+			</p>
+			<p>
+				所在地区:
+				<label for="cities">
+					<input type="text" id="cities" placeholder="奋斗者之家">
+				</label>
+			</p>
+			<p>
+				婚姻状况:
+				<label for="unmarried">
+					<input checked id="unmarried" name="marital status" type="radio"> 未婚
+				</label>
+				<label for="married">
+					<input id="married" name="marital status" type="radio"> 已婚
+				</label>
+				<label for="love-starved">
+					<input id="love-starved" name="marital status" type="radio">缺爱
+				</label>
+			</p>
+			<p>小学: <input type="text" placeholder="小学"></p>
+			<p>月薪: <input type="text" placeholder="1000~100000"></p>
+			<p>手机号: <input type="text"></p>
+			<p>昵称: <input type="text"></p>
+			<p>
+				喜欢的类型：
+				<label for="cute">
+					<input  id="cute" name="ideal_mates" type="checkbox">可爱
+				</label>
+				<label for="sexy">
+					<input  id="sexy" name="ideal_mates" type="checkbox">性感
+				</label>
+				<label for="domineering">
+					<input id="domineering" name="ideal_mates" type="checkbox">御姐
+				</label>
+				<label for="loli">
+					<input id="loli" name="ideal_mates" type="checkbox">萝莉
+				</label>
+				<label for="younger">
+					<input id="younger" name="ideal_mates" type="checkbox">小鲜肉
+				</label>
+				<label for="elder">
+					<input id="elder" name="ideal_mates" type="checkbox">大叔
+				</label>
+			</p>
+			<p>
+				自我介绍:
+				<label for="profile">
+					<textarea cols="65" id="profile" name="profile" placeholder="请介绍一下你自己" rows="10"></textarea>
+				</label>
+			</p>
+			<h3>我承诺</h3>
+			<ul>
+				<li>年满18岁、单身</li>
+				<li>抱着严肃的态度</li>
+				<li>真诚寻找另一半</li>
+			</ul>
+			<label for="terms">
+				<input id="terms" name="terms" type="checkbox">我同意注册条款和会员加入标准
+			</label>
+			<p>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</p>
+		</form>
+	</body>
+</html>
