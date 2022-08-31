@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>选做2</title>
+		<style>
+            * {
+                margin: 0;
+                height: 0;
+            }
+
+            .box {
+                box-sizing: border-box;
+                width: 355px;
+                height: 340px;
+                margin: 100px auto;
+            }
+
+            .box .pic {
+                box-sizing: border-box;
+                width: 50px;
+                height: 50px;
+                margin: 0 auto;
+                background-color: #ff4c00;
+                background-image: url(images/mi-logo.png);
+                background-position: top center;
+                background-repeat: no-repeat;
+            }
+
+            .box h2 {
+				height: 77px;
+                box-sizing: border-box;
+                margin-top: 35px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 500;
+            }
+			
+			.box .username {
+                box-sizing: border-box;
+				border: 1px solid #e0e0e0;
+                width: 355px;
+                height: 50px;
+				text-indent: 1em;
+			}
+
+            .box .password {
+                box-sizing: border-box;
+                border: 1px solid #e0e0e0;
+                width: 355px;
+                height: 50px;
+                margin-top: 15px;
+                text-indent: 1em;
+			}
+
+            .box .username:hover, .box .password:hover {
+                border: 2px solid #000;
+            }
+
+            .box .loginButton {
+                width: 355px;
+                height: 50px;
+                margin-top: 15px;
+                background-color: #ff4c00;
+				color: #fff;
+				border-style: none;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="pic"></div>
+			<h2>小米账号登录</h2>
+			<input placeholder="邮箱/手机/小米ID" type="text" class="username"><br>
+			<input placeholder="密码" type="text" class="password"><br>
+			<input type="button" value="登录" class="loginButton">
+		</div>
+	</body>
+</html>
