@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>小米模块</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .box {
+                width: 1226px;
+                height: 614px;
+                margin: 50px auto;
+                background-color: #fff;
+            }
+
+            .box2 {
+                width: 1226px;
+                height: 614px;
+                margin: 50px auto;
+                background-color: #fff;
+            }
+
+            .left {
+                float: left;
+                width: 234px;
+                height: 614px;
+                background-color: #800080;
+            }
+
+            .left2 {
+                float: left;
+                width: 234px;
+                height: 614px;
+                background-color: #800080;
+            }
+
+            .right {
+                float: left;
+                width: 992px;
+                height: 614px;
+            }
+
+            .right2 {
+                float: left;
+                width: 992px;
+                height: 614px;
+            }
+
+            .box .right .small:nth-child(-n+4) {
+                float: left;
+                width: 234px;
+                height: 300px;
+                margin-left: 14px;
+                margin-top: 0;
+                background-color: #87ceeb;
+            }
+
+            .box .right .small:nth-child(n+5) {
+                float: left;
+                width: 234px;
+                height: 300px;
+                margin-left: 14px;
+                margin-top: 14px;
+                background-color: #87ceeb;
+            }
+
+            .box2 .right2 ul li {
+                list-style: none;
+                width: 234px;
+                height: 300px;
+                background-color: #87ceeb;
+            }
+
+            .box2 .right2 ul li:nth-child(-n+4) {
+                float: left;
+                margin-left: 14px;
+                margin-top: 0;
+            }
+
+            .box2 .right2 ul li:nth-child(n+5) {
+                float: left;
+                margin-left: 14px;
+                margin-top: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="left"></div>
+            <div class="right">
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="small"></div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="left2"></div>
+            <div class="right2">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

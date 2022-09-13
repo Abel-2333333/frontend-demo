@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>伪元素</title>
+        <style>
+            .box {
+                background-color: #808080;
+                width: 200px;
+                height: 200px;
+            }
+
+            .box::before {
+                content: '我是';
+            }
+
+            .box::after {
+                content: ', 你呢?';
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">Abel</div>
+    </body>
+</html>
