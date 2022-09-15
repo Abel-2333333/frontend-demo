@@ -1,0 +1,115 @@
+/* css 初始化代码  css reset */
+
+* {
+    /* 清除默认内外边距 */
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+/* 去掉列表默认样式 */
+li {
+    list-style: none;
+}
+
+/* 去掉链接默认下划线 */
+a {
+    text-decoration: none;
+}
+
+/*去掉button 默认自带的边框*/
+button {
+    border: none;
+}
+
+/*版心*/
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+/*头部*/
+.header {
+    width: 1200px;
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+
+.classes {
+    float: left;
+    width: 246px;
+    height: 42px;
+    margin: auto 70px;
+}
+
+.classes ul li {
+    float: left;
+    margin-left: 43px;
+}
+
+.classes ul li:first-child {
+    margin-left: 9px;
+}
+
+.classes ul li:last-child {
+    margin-right: 0;
+}
+
+.classes ul li a {
+    display: inline-block;
+    float: left;
+    line-height: 42px;
+    color: black;
+}
+
+.classes ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    width: 412px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    text-indent: 1.5em;
+    background-image: url('../images/btn.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f3f5f7;
+    color: #bfbfbf;
+}
+
+.search:hover {
+    border: 2px solid #00a4ff;
+}
+
+.user {
+    float: left;
+    height: 42px;
+    margin-left: 30px;
+}
+
+.user img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 6px auto;
+}
+
+.user .username {
+    display: inline-block;
+    line-height: 42px;
+    margin-left: 6px;
+    color: #666666;
+}
+
+body {
+    background-color: #f3f5f7;
+}
