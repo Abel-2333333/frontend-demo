@@ -51,11 +51,7 @@ button {
 
 .classes ul li {
     float: left;
-    margin-left: 43px;
-}
-
-.classes ul li:first-child {
-    margin-left: 9px;
+    margin-right: 28px;
 }
 
 .classes ul li:last-child {
@@ -63,10 +59,12 @@ button {
 }
 
 .classes ul li a {
-    display: inline-block;
-    float: left;
-    line-height: 42px;
-    color: black;
+    padding: 9px;
+    display: block;
+    /*float: left;*/
+    /*line-height: 42px;*/
+    text-align: center;
+    color: #050505;
 }
 
 .classes ul li a:hover {
