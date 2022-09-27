@@ -263,6 +263,61 @@ button {
     color: #00a4ff;
 }
 
+.featured_content {
+    height: 595px;
+    margin-top: 37px;
+}
+
+.featured_content h3 {
+    /*float: left;*/
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: MicrosoftYaHei;
+}
+
+.featured_content .all {
+    float: right;
+    display: inline-block;
+    margin-left: 1041px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.featured_content ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-left: 15px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.featured_content ul li a {
+    display: inline-block;
+    margin: 20px 20px 20px 24px;
+    color: black;
+}
+
+.featured_content ul li .advanced {
+    margin-left: 24px;
+    margin-bottom: 27px;
+    color: orange;
+}
+
+.featured_content ul li span {
+    font-size: 12px;
+    color: #999;
+}
+
+.featured_content ul li:nth-child(5n+1) {
+    margin-left: 0;
+}
+
+.featured_content ul li:nth-child(n-5) {
+    margin-top: 15px;
+}
+
 body {
     background-color: #f3f5f7;
 }
